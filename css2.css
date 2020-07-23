@@ -1,0 +1,65 @@
+body{
+	background: url(https://cdn.business2community.com/wp-content/uploads/2019/04/together-2643652_640.jpg);
+	background-size: cover;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.content{
+	opacity: .9;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+    background: #252524;
+    width: 445px;
+    color: #ffff;
+    text-align: left;
+    //box-shadow: 28px 11px 30px -9px black;
+    height: 120vh;
+}
+	.title{
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+
+	.subtitle{
+		font-family: cursive;
+		font-size: .9em;
+	}
+
+	.lab{
+		margin-bottom: 15px;
+	}
+
+	.width{
+		width:90%;
+	}
+
+.inputs{
+	display: block;
+	border:0;
+	border-top: 5px;
+	width:90%;
+	border-radius: 5px;
+	background:#ffff; 
+	cursor: pointer;
+}
+
+::placeholder{
+	padding-left: 1.1em;
+	color: black;	
+}
+
+.sub{
+	background: lightblue;
+}
+
+input[type="submit"]{
+	height: 3.0em;
+	color: #ffff;
+	background: green;
+}
+
+.selections{
+	border:0;
+}
